@@ -77,8 +77,6 @@ for vm in parsed_data:
                         )
                     )
 
-            # for ssk_keys_entry in v['cloud_init']['user_account']['keys']:
-            #     ssh_keys.append(ssk_keys_entry)
 
             for net_entry in v['network_devices']:
                 for n in net_entry:
